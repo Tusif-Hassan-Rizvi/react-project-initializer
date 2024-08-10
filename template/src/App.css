@@ -1,0 +1,45 @@
+:root {
+  --optus-white: #ffffff;
+  --optus-main-blue: #00ADB3;
+  --optus-primary-blue: #006781;
+  --optus-secondary-blue: #003F4C;
+  --optus-main-yellow: #FFD100;
+  --optus-primary-yellow: #F99D1C;
+  --optus-black: #000000;
+  --optus-dark-black: #231F20;
+  --optus-dark-gray: #9B9DA0;
+  --optus-primary-gray: #C2C4C6;
+  --optus-secondary-gray: #DADBDC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* common class  */
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.optus-common-container {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+}
+
+
+@media screen and (min-width: 1919px) {
+  .optus-common-container {
+    max-width: 1800px;
+  }
+}

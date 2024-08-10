@@ -1,0 +1,28 @@
+{
+  "name": "create-test-optus-react-app",
+  "version": "1.0.8",
+  "description": "Custom React TypeScript app generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-test-optus-react-app": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template",
+    "template/.gitignore"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "generator"
+  ],
+  "author": "Tusif",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0"
+  }
+}
